@@ -25,8 +25,88 @@
     <b>Bold</b>
     <strong>Strong</strong>
     <i>İtalik</i>
-    <em>İtalik</em> -->
+    <em>İtalik</em> 
     <img src="./img/resim.jpg" width="1500px" height="1500px" alt="Siyah köpek">
-    <img src="https://picsum.photos/seed/picsum/200/300" alt="Karlı Dağ Manzarası">
+    <img src="https://picsum.photos/seed/picsum/200/300" alt="Karlı Dağ Manzarası">-->
+    <h1 id="baslik1">Sırasız Liste</h1>
+    <ul>
+        <li>Liste Elemanı 1</li>
+        <li>Liste Elemanı 2</li>
+        <li>
+            <ul>
+                <li>Eleman 1</li>
+                <li>Eleman 2</li>
+            </ul>
+        </li>
+    </ul>
+    <h1>Sıralı Liste</h1>
+    <ol>
+        <li><a href="#">Liste Elemanı 1</a></li>
+        <li>Liste Elemanı 2</li>
+    </ol>
+
+    <a href="https://www.deu.edu.tr">D.E.Ü.</a>
+    <a href="iletisim.html">İletişim Sayfası</a>
+    <a href="#baslik1">Başa dön</a>
+    <a href="logo.rar">Dosyayı İndirmek için Tıklayınız</a>
+    <a href="mailto@test.com">mailto@test.com</a>
+    <a href="https://deu.edu.tr" target="_blank" rel="DEÜ Sayfası Linki"><img src="./img/deu_logo.png"></a>
+    <table border="1">
+        <tr>
+            <th>Adı</th>
+            <th>Soyadı</th>
+            <th>Okul</th>
+        </tr>
+        <tr>
+            <td>Can</td>
+            <td>Aydın</td>
+            <td>DEÜ</td>
+        </tr>
+        <tr>
+            <td>Ahmet</td>
+            <td>Yüksek</td>
+            <td>DEÜ</td>
+        </tr>
+        <tr>
+            <td colspan="3">Sonuc</td>
+        </tr>
+        <tr>
+            <td colspan="2">Can Aydın</td>
+            <td>DEÜ</td>
+        </tr>
+    </table>
+
+    <iframe src="https://www.x.com" width="%100" height="100%" frameborder="0"></iframe>
+    <form action="gonder.js" method="POST">
+        <label for="adi">Adı:</label>
+        <input type="text" id="adi" name="adi" placeholder="Adınız Giriniz" maxlength="255" >
+        <label for="soyadi">Soyadı:</label>
+        <input type="text" id="soyadi" name="soyadi" placeholder="Soyadınızı Giriniz" maxlength="255" >
+        <input type="hidden" id="gelen_ip_address">        
+        <input type="password" id="sifre">
+        <input type="checkbox" id="secim">
+        <label>Canva</label>
+        <input type="radio" id="kadin" name="cinsiyet" value="1">
+        <label>Kadın</label>
+        <input type="radio" id="erkek" name="cinsiyet" value="0">
+        <label>Erkek</label>
+        <label>Adres</label>
+        <textarea></textarea>
+        <select id="secenek">
+            <option id="secenek1" value="1">Seçenek 1</option>
+            <option id="secenek2" value="2">Seçenek 2</option>
+        </select>
+        <input type="submit" value="Kaydet">
+        <input type="reset" value="Temizle">
+        <input type="date">
+        <input type="color">
+        <input type="email">
+        <input type="number" min="1" max="50">
+        <input type="range" min="0" max="100" step="10">
+        <input type="url" pattern="https://.+">
+
+
+
+    </form>
 </body>
 </html>

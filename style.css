@@ -1,0 +1,102 @@
+/*
+2. Evrensel Seçiciler
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}*/
+/* body{
+}
+
+/* Seçiciler - selectors
+1. Etiket (Tag) seçiciler
+h1,h2{
+    color:blue;
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}*/
+
+/*
+2. Class Seçiciler
+
+
+.baslik{
+    color: coral;
+    font-size: 45px;
+}*/
+/*
+2. ID Seçiciler
+
+
+#topic{
+    
+    font-size: 8px;
+}
+*/
+
+/*
+Torun Seçiciler
+
+div ul li a{
+    color: brown;
+}
+div ul li a em{
+    color: green;
+}
+*/
+/*
+Çocuk seçiciler
+*/
+/*a etiketinin içinde direkt em etiketi varsa onu seçer
+a>em{
+    background-color: blue;
+}
+*/
+
+/*
+Bitişik Seçiciler:peşpeşe gelen elemanlar seçmek için
+*
+
+p+h1{
+    background-color: chocolate;
+}
+/
+/*
+Özellik (attribute) Seçiciler
+*/
+
+/* a[href]{
+    color: chartreuse;
+}
+a[title]{
+    font-weight: 800;
+    color: blueviolet;
+}
+
+input[type="text"]{
+    color:red;
+}
+input[type="submit"]{
+    color:orange;
+}
+ */
+ ul li{
+    list-style-type: none;
+    margin: 10px;
+    float: left;
+    background-color: blueviolet;
+    color: aliceblue;
+ }
+ a:link{
+    text-decoration: none;
+ }
+ a:hover{
+    color: orange;
+ }
+ a:visited{
+    color: aquamarine;
+ }
+ a:active{
+    color: cadetblue;
+ }

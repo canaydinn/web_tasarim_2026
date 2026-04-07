@@ -81,7 +81,7 @@ input[type="submit"]{
     color:orange;
 }
  */
- ul li{
+ /* ul li{
     list-style-type: none;
     margin: 10px;
     float: left;
@@ -99,4 +99,83 @@ input[type="submit"]{
  }
  a:active{
     color: cadetblue;
+ } */
+
+
+/* #yeni{
+    color:yellow !important;
+    line-height:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-indent: 30px;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 30px;
+    text-shadow: 2px 2px 2px #990033;
  }
+ */
+/*  html{
+    background-color: #0099FF;
+ }
+ body{
+    background-image: url(img/deu_logo.png);
+    min-height: 1200px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+ } */
+ /* CSS kutu Modeli margin ve padding
+ margin :dış boşluk
+ padding: iç boşluk
+ */
+/* 
+body{
+margin: 0 auto;
+padding: 0 auto;
+}
+
+#padding_box_1{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+ 
+}
+#padding_box_2{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+#padding_box_3{
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 50px;
+} */
+
+/* div{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px 0 15px 0;
+} */
+
+
+#flex_kutu{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid silver;
+}
+.alt_kutular{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
